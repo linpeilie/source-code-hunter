@@ -1,16 +1,20 @@
 {
   "name": "source-code-hunter",
   "version": "1.0.0",
-  "description": "从源码层面，剖析挖掘互联网行业主流技术的底层实现原理，为广大开发者 “提升技术深度” 提供便利。",
+  "private": true,
+  "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
   "scripts": {
-    "dev": "docsify serve --open",
-    "convert": "docsify-pdf-converter"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "docsify-cli": "^4.4.4"
+    "vitepress-plugin-comment-with-giscus": "^1.1.15"
   },
   "devDependencies": {
-    "prettier": "2.8.8"
-  },
-  "license": "SEE LICENSE IN LICENSE"
+    "vitepress": "2.0.0-alpha.20"
+  }
 }

@@ -13,6 +13,10 @@
 
 本项目主要用于记录框架及中间件源码的阅读经验、个人理解及解析，希望能够使阅读源码变成一件简单有趣，且有价值的事情，抽空更新中... (如果本项目对您有帮助，请 watch、star、fork 素质三连一波，鼓励一下作者，谢谢）
 
+## 网站
+
+[https://schunter.doocs.org](https://schunter.doocs.org)
+
 ## Spring 系列
 
 ### IoC 容器
@@ -113,10 +117,6 @@
 - [SpringBoot ConfigurationProperties](/docs/SpringBoot/SpringBoot-ConfigurationProperties.md)
 - [SpringBoot 日志系统](/docs/SpringBoot/SpringBoot-LogSystem.md)
 - [SpringBoot ConditionalOnBean](/docs/SpringBoot/SpringBoot-ConditionalOnBean.md)
-
-### SpringBootBatch
-
-- [SpringBootBatch 源码](/docs/SpringBootBatch/SpringBootBatch源码.md)
 
 ### Spring Cloud
 
@@ -327,10 +327,6 @@
 ### 个人经验
 
 - [初级开发者应该从 Spring 源码中学什么](docs/LearningExperience/PersonalExperience/初级开发者应该从spring源码中学什么.md)
-
-### 编码规范
-
-- [一个程序员的自我修养](docs/LearningExperience/EncodingSpecification/一个程序员的自我修养.md)
 
 ### 设计模式
 
